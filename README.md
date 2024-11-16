@@ -5,7 +5,7 @@ In order to monitor and assess bank's lending activities and performance, we nee
    
    Reporting tool : **`Power BI`**
    
-  Sample data is loaded in to SQL server from CSV file and dashbaord is created by connecting SQL sever as source form Power BI.SQL queries were used to validate report results for thier accuracy .
+  Sample data is loaded in to SQL server from CSV file and dashboard is created by connecting SQL sever as source form Power BI.SQL queries were used to validate report results for thier accuracy .
   
 ## Report Link: 
 https://app.powerbi.com/view?r=eyJrIjoiMzI4MGU1Y2QtNjJiZi00NGFmLTg3OGEtZDU4ZjA4NGZhNGIyIiwidCI6IjYyOTA2MWUyLTg4MGMtNDI4Zi1iMTIxLWY5NjYxMDVlMmFhMyJ9
