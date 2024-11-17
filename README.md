@@ -9,6 +9,28 @@ To effectively monitor and evaluate a bank's lending operations and overall perf
    
    Reporting tool : **`Power BI`**
    
+Power BI functionalities used :
+Connecting to SQL Server,
+Data Cleaning,
+Data Modelling,
+Data Processing,
+Power Query,
+Date Tables,
+Time Intelligence Func,
+DAX,
+Date Function,
+Text Function,
+Filter Function,
+Calculate,
+SUM/ SUMX,
+Creating KPI’s,
+New Card Visual,
+Creating Charts,
+Formatting visuals,
+Creating Functions,
+Navigations.
+
+   
 Sample data is loaded in to SQL server from CSV file and dashboard is created by connecting SQL sever as source form Power BI.SQL queries were used to validate report results for thier accuracy .
   
 ## Report Link: 
@@ -28,17 +50,22 @@ Provides summary details on key metrics such as Total Loan Applications,Total Fu
 
 <img width="853" alt="summary2024-11-14 132505" src="https://github.com/user-attachments/assets/8c9ff3ee-170f-439b-afd3-62103f05d4c6">
 
-#### KPI's overview :
+### KPI's overview :
 
-    1. Total Loan Applications:  This is used to calculate the total number of loan applications  received during a specified period. Additionally, it is essential to monitor the Month-to-Date (MTD) Loan Applications and track changes Month-over-Month (MoM).
+ #### (1). Total Loan Applications:  
+ This is used to calculate the total number of loan applications  received during a specified period. Additionally, it is essential to monitor the Month-to-Date (MTD) Loan Applications and track changes Month-over-Month (MoM).
 
-    2. Total Funded Amount: Understanding the total amount of funds disbursed as loans is crucial. Bank also want to keep an eye on the Month-to-Date (MTD) Total Funded Amount and analyse the Month-over-Month (MoM) changes in this metric.
+####  (2). Total Funded Amount:
+Understanding the total amount of funds disbursed as loans is crucial. Bank also want to keep an eye on the Month-to-Date (MTD) Total Funded Amount and analyse the Month-over-Month (MoM) changes in this metric.
 
-    3. Total Amount Received: Tracking the total amount received from borrowers is essential for assessing the bank's cash flow and loan repayment. Bank wants to analyse the Month-to-Date (MTD) Total Amount Received and observe the Month-over-Month (MoM) changes.
+#### (3). Total Amount Received:
+Tracking the total amount received from borrowers is essential for assessing the bank's cash flow and loan repayment. Bank wants to analyse the Month-to-Date (MTD) Total Amount Received and observe the Month-over-Month (MoM) changes.
 
-    4. Average Interest Rate: Calculating the average interest rate across all loans, MTD, and monitoring the Month-over-Month (MoM) variations in interest rates will provide insights into bank lending portfolio's overall cost.
+#### (4). Average Interest Rate: 
+Calculating the average interest rate across all loans, MTD, and monitoring the Month-over-Month (MoM) variations in interest rates will provide insights into bank lending portfolio's overall cost.
 
-    5. Average Debt-to-Income Ratio (DTI): Evaluating the average DTI for bank borrowers helps bank to gauge their financial health. Bank wants to compute the average DTI for all loans, MTD, and track Month-over-Month (MoM) fluctuations.
+#### (5). Average Debt-to-Income Ratio (DTI): 
+Evaluating the average DTI for bank borrowers helps bank to gauge their financial health. Bank wants to compute the average DTI for all loans, MTD, and track Month-over-Month (MoM) fluctuations.
 
 ### Overview tab :
 
@@ -55,33 +82,66 @@ I aim to visually represent critical loan-related metrics and trends using a var
 
 ### Good Loans issued:
 
+Loan is considerded good when loan status is 'Fully Paid' or 'Current'. This donut chart will track following metrics :
+
+##### Good Loan Application Percentage
+
+##### Good Loan Applications
+
+##### Good Loan Funded Amount
+
+##### Good Loan Total Received Amount
+
 <img width="440" alt="Goodloanissued" src="https://github.com/user-attachments/assets/eccdffc0-8e2a-45f7-9497-28dc4d11c2a2">
 
 ### Bad Loans issued:
+
+Loan is considerded bad when loan status is 'Charged Off'. This donut chart will track following metrics :
+
+##### Bad Loan Application Percentage
+
+##### Bad Loan Applications
+
+##### Bad Loan Funded Amount
+
+##### Bad Loan Total Received Amount
 
 <img width="446" alt="badloanissued" src="https://github.com/user-attachments/assets/bdbe2b3c-69ce-424a-bfaa-a0eac5317e5a">
 
 ### Region Distribution:
 
+This tree map chart helps to identify regions with significant lending activity and assess regional disparities.
+
 <img width="765" alt="TreeMap" src="https://github.com/user-attachments/assets/795a5cfb-b330-4bc2-bd9e-d6a02cb58bfa">
 
 ### Monthly Distribution:
+
+This line chart helps to identify seasonality and long-term trends in lending activities.
 
 <img width="355" alt="LineChart" src="https://github.com/user-attachments/assets/865aef11-6684-42ed-b3fc-270bc5cdb1ec">
 
 ### Termwise Distribution:
 
+This donut chart will allow the client to understand the distribution of loans across various term lengths.
+
 <img width="338" alt="loanapplictionsbyterm" src="https://github.com/user-attachments/assets/8f519203-5204-492f-8792-4d9f36a59f8d">
 
 ### Distribution of loans purpose:
+
+This will provide a visual breakdown of loan metrics based on the stated purposes of loans, aiding in the understanding of the primary reasons borrowers seek financing
 
 <img width="391" alt="barchart by purpose" src="https://github.com/user-attachments/assets/630c6b36-e040-4307-aab2-3a214514dbea">
 
 ### Distribution of loans by Employment term length:
 
+This bar chart provides insghts on how lending metrics are distributed among borrowers with different employment lengths, helping us assess the impact of employment history on loan applications.
+
 <img width="407" alt="Barchart_by emp length" src="https://github.com/user-attachments/assets/d3cd60c0-4a9e-417a-a4e0-53ec0d4c4f9a">
 
 ### Distribution of loans by home ownership:
+
+This tree map helps for a hierarchical view of how home ownership impacts loan applications and disbursements.
+
 
 <img width="668" alt="loanpurpose_treemap" src="https://github.com/user-attachments/assets/f6248731-0045-4fd1-9172-e4cff051bdd6">
 
