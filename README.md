@@ -83,7 +83,7 @@ Tracking the total amount received from borrowers is essential for assessing the
 
  ###### Metric Calculation:
  
-      Total Amount Received = SUM(bank_loan_data[total_payment])
+     Total Amount Received = SUM(bank_loan_data[total_payment])
 
      MTD Amount Recieved = CALCULATE(TOTALMTD([Total Amount Received],'Date Table'[Date]))
      
@@ -136,6 +136,8 @@ I aim to visually represent critical loan-related metrics and trends using a var
 
 <img width="440" alt="Goodloanissued" src="https://github.com/user-attachments/assets/eccdffc0-8e2a-45f7-9497-28dc4d11c2a2">
 
+
+
 Loan is considerded good when loan status is 'Fully Paid' or 'Current'. This donut chart will track following metrics :
 
 
@@ -153,6 +155,11 @@ Loan is considerded good when loan status is 'Fully Paid' or 'Current'. This don
        A loan is considered "Good Loan" if loan_status is "Current" or "Fully Paid"
 
        A loan is considered "Bad Loan" if loan_status is "Current" or "Charged Off"
+       
+Group creation screenshot:
+
+<img width="554" alt="Screenshot 2024-11-21 132428" src="https://github.com/user-attachments/assets/8bad21bd-b624-4acd-a5fa-1ef615874bee">
+
 
 ##### Good Loan Applications
 
@@ -169,6 +176,8 @@ Loan is considerded good when loan status is 'Fully Paid' or 'Current'. This don
 ### Bad Loans issued:
 
   <img width="446" alt="badloanissued" src="https://github.com/user-attachments/assets/bdbe2b3c-69ce-424a-bfaa-a0eac5317e5a">
+
+  
   
 Loan is considerded bad when loan status is 'Charged Off'. This donut chart will track following metrics :
 
