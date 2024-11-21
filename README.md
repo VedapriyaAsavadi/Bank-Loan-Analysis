@@ -158,7 +158,7 @@ Loan is considerded good when loan status is 'Fully Paid' or 'Current'. This don
        
 Group creation screenshot:
 
-<img width="554" alt="Screenshot 2024-11-21 132428" src="https://github.com/user-attachments/assets/8bad21bd-b624-4acd-a5fa-1ef615874bee">
+  <img width="554" alt="Screenshot 2024-11-21 132428" src="https://github.com/user-attachments/assets/8bad21bd-b624-4acd-a5fa-1ef615874bee">
 
 
 ##### Good Loan Applications
@@ -175,10 +175,8 @@ Group creation screenshot:
 
 ### Bad Loans issued:
 
-  <img width="446" alt="badloanissued" src="https://github.com/user-attachments/assets/bdbe2b3c-69ce-424a-bfaa-a0eac5317e5a">
+ <img width="446" alt="badloanissued" src="https://github.com/user-attachments/assets/bdbe2b3c-69ce-424a-bfaa-a0eac5317e5a">
 
-  
-  
 Loan is considerded bad when loan status is 'Charged Off'. This donut chart will track following metrics :
 
 ##### Bad Loan Issued Percentage
