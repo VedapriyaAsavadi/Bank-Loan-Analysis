@@ -36,6 +36,24 @@ Sample data is loaded in to SQL server from CSV file and dashboard is created by
 ## Report Link: 
 
 https://app.powerbi.com/view?r=eyJrIjoiMzI4MGU1Y2QtNjJiZi00NGFmLTg3OGEtZDU4ZjA4NGZhNGIyIiwidCI6IjYyOTA2MWUyLTg4MGMtNDI4Zi1iMTIxLWY5NjYxMDVlMmFhMyJ9
+
+### Steps followed 
+
+- Step 1 : Load data into Power BI Desktop, Data source is SQL server, Table name is bank_loan_data.
+- Step 2 : Open power query editor & in view tab under Data preview section, check "column distribution", "column quality" & "column profile" options.
+- Step 3 : By default, profile will be opened only for 1000 rows so we need to select "column profiling based on entire dataset".
+- Step 4 : It was observed that none of the columns errors & empty values were present.
+- Step 5 : For calculating time intelligence metrics, calendar table has been created based on the maximum and minimum dates in the excel. 
+- Step 6 : Various DAX measures(Metrics) were created and these were presented using card visuals.
+- Step 7 : Visual type 'New card' was used to represent good and bad loans issued.
+- Step 8 : Visual type 'Table' was added to report for representing other key metrics in tabular format. 
+- Step 9 : To make Dashboard more dynamic in Details tab ,  A new parameter by name 'Select Measure' was created. This will enable user to select among different measures such as Total Loan Applications,Total Funded Amount and Total Amount Received.
+- Step 10 : Dropdowns were added for these attributes- Select Measure(only in Details tab), Regions, Grades , Bank Loan Purpose and Good vs Bad loan.    
+- Step 11 : Another page by name 'Overview' has been added to report . Line, Treemap, bar and donut graphs were used for graphical representation of various key metrics.
+- Step 12 : Another page by name 'Details' has been added to report, attributes and metrics were presented in tabular format.
+- Step 13 : Button type called navigation was added to Dashboard in order to select different tabs such as summary , Overview and Details tab.
+- Step 14 : Report results were validated against SQL queries and then, the report was then published to Power BI Service.
+
 ## Dashboard Screenshots:
  Dashboard has 3 tabs for selection
  
