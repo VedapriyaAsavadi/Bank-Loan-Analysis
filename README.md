@@ -144,10 +144,8 @@ Loan is considerded good when loan status is 'Fully Paid' or 'Current'. This don
 ##### Good Loan Issued Percentage
 
      Good Loan % = (CALCULATE(bank_loan_data[Total Loan Applications],bank_loan_data[Good Vs Bad Loan]="Good Loan"))/bank_loan_data[Total Loan Applications]
-   
-     where
-   
-     [Good Vs Bad Loan] is group created by considering field loan_status. It has 2 members .
+     
+   In the above formula ,[Good Vs Bad Loan] is a Power BI group created by considering field loan_status. It has 2 members .
 
        1. "Good Loan"
        2. "Bad Loan"
@@ -232,3 +230,6 @@ This tree map helps for a hierarchical view of how home ownership impacts loan a
 
 <img width="668" alt="loanpurpose_treemap" src="https://github.com/user-attachments/assets/f6248731-0045-4fd1-9172-e4cff051bdd6">
 
+## Data Validations
+
+SQL queries were used to validate Power BI Dashboard results . All validations have been documented in the data validation document .
