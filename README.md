@@ -251,3 +251,24 @@ This tree map helps for a hierarchical view of how home ownership impacts loan a
 ## Data Validations
 
 SQL queries were used to validate Power BI Dashboard results . All validations have been documented in the data validation document .
+
+## Insights from Dashbaord 
+
+#### Loan Performance and Trends in FY 2023 based on sample data
+
+•	 **`Loan Quality`**: 86% of loans were repaid on time, classified as good loans. The remaining 14% were categorized as bad loans due to late or missed payments.
+
+•	 **`Loan Volume`**: A steady increase in the total number of loans was observed throughout the fiscal year 2023.
+
+•	 **`Loan Term`**: A majority (73%) of loans had a 3-year term (36 months), while the remaining 27% were 5-year terms (60 mo
+nths).
+
+•   **`Geographic Distribution`**: Major cities like London, Birmingham, and Manchester saw the highest demand for loans, which aligns with their population density.
+
+#### Borrower Demographics: 
+
+•		**`Tenure`**: Employees with over 10 years of service were more likely to apply for loans.
+
+•		**`Purpose`**: The primary reasons for taking loans were debt consolidation and credit card repayment.
+
+•	 	**`Homeownership`**: Employees renting their homes exhibited a higher demand for loans compared to homeowners.
