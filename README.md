@@ -3,7 +3,7 @@
 
 To effectively monitor and evaluate a bank's lending operations and overall performance, a comprehensive Bank Loan Report is essential, providing critical insights into key loan-related metrics and their trends over time, enabling the bank to enhance profitability analysis, strengthen risk assessment, inform data-driven decision making, and tailor loan products and marketing strategies to specific customer segments.
 
-## Database and tools used :
+## Database and reporting tool used :
 
    Database : **`SQL Server`**
    
